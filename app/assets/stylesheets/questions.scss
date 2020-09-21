@@ -1,0 +1,71 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+#question-input {
+  padding: 15px 32px;
+  margin: 0;
+  border: 1px solid grey;
+  width: 80%;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#ask-btn {
+  background-color:  #2196F3;
+  margin: 0;
+  border: 1px solid grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.question {
+  padding: 15px;
+  border-left: 6px solid #ccc;
+  background-color: #ddffff;
+  border-color: #2196F3;
+}
+.response {
+  margin-top: 15px;
+  padding: 15px;
+  border-left: 6px solid #ccc;
+  background-color: #ddffff;
+  border-color: #2196F3;
+}
+
+/* RESPONSONSIVE */
+/* =========================================== */
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    padding: 0px 10px;
+  }
+}
